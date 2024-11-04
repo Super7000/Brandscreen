@@ -3,11 +3,11 @@
 }
 
 .btn-primary {
-    background-color: #4335b2;
+    background: linear-gradient(rgb(153, 84, 242) 0%, rgb(103, 1, 239) 100%) !important;
 }
 
 .btn-primary:hover {
-    background-color: #4335b2;
+    background: linear-gradient(rgb(153, 84, 242) 0%, rgb(103, 1, 239) 100%) !important;
 }
 
 .bg-primary {
@@ -89,7 +89,7 @@ a {
 }
 
 .gradient-bg-primary {
-    background: linear-gradient(105.47834442845968deg, #9954f2 0%, rgba(103, 1, 239, 1) 100%);
+    background: linear-gradient(180deg, #a64cff, #4b00e0, #4418ac, #2e2c61);
     color: white;
 }
 

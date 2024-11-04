@@ -1,33 +1,41 @@
 <!-- header area start -->
-<header class="navbar navbar-expand-md navbar-dark">
+<header class="navbar navbar-expand-lg navbar-dark menubar">
     <nav class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="/images/logo/2.png" alt="logo" width="60" height="60" class="rounded rounded-4">
+            <img src="/images/logo/1.png" alt="logo" width="50" height="50" class="rounded rounded-4">
+            <img src="/images/logo/title.png" alt="logo" height="35"
+                class="rounded rounded-4 d-inline d-lg-none d-xl-inline"
+                style="filter: drop-shadow(0px 0 3px rgba(3, 7, 12, 0.5));">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#mynavbar" style="box-shadow: none;">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav ms-auto me-4" style="gap: 1rem;">
+            <ul class="navbar-nav ms-auto me-lg-4 text-center text-lg-start">
                 <li class="nav-item">
-                    <a class="nav-link" href="use-cases.html">Use Cases</a>
+                    <a class="nav-link" href="#">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="features.html">Features</a>
+                    <a class="nav-link" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pricing.html">Pricing</a>
+                    <a class="nav-link" href="#">Customers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="tutorials.html">Tutorials</a>
+                    <a class="nav-link" href="#">Why Brandname</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="faq.html">FAQ</a>
+                    <a class="nav-link" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
                 </li>
             </ul>
-            <div class="button-area">
-                <a href="https://app.ai4chat.co/register" class="btn btn-primary py-2 px-3 border border-0"
+            <div class="button-area d-grid justify-content-center mt-4">
+                <a href="https://app.ai4chat.co/register"
+                    class="btn btn-primary fw-bold py-2 px-3 border border-0 text-nowrap"
                     style="border-radius: 0.6rem;">Get
                     Started For Free</a>
             </div>
@@ -35,3 +43,25 @@
     </nav>
 </header>
 <!-- header area end -->
+
+<style>
+    .menubar ul li {
+        text-wrap: nowrap;
+    }
+
+    .menubar ul {
+        gap: 1rem;
+    }
+
+    @media (max-width: 767.98px) {
+        .menubar ul {
+            gap: 0.5rem;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .menubar ul {
+            gap: 0.2rem;
+        }
+    }
+</style>
