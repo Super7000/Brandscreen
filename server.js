@@ -1,7 +1,7 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import { engine } from 'express-handlebars';
-import cookieParser from 'cookie-parser';
+const express = require('express');
+const bodyParser = require('body-parser');
+const exphbs = require('express-handlebars');
+const cookieParser = require('cookie-parser');
 
 const app = express();
 
@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(express.static('public'));
 app.use(cookieParser());
-app.engine('hbs', engine({
+app.engine('hbs', exphbs({
     defaultLayout: 'main',
     extname: '.hbs',
     partialsDir: ['views/partials/'],
