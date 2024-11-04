@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
-    <title>AI4Chat - All AI chatbots under one roof - ChatGPT, GPT4, Bard</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/fav.png">
+    <title>Brandscreen</title>
     <meta name="description"
         content="All your favorite chatbots under one roof, including ChatGPT, OpenAI GPT4, Google Bard. With multilingual support and mobile apps.">
     <meta name="robots" content="index, follow">
@@ -28,58 +28,19 @@
 
 
     <!-- bootstrap min css -->
-    <link rel="stylesheet preload" href="assets/css/plugins/fontawesome-6.css" as="style">
-    <link rel="stylesheet preload" href="assets/css/plugins/unicons.css" as="style">
-    <link rel="stylesheet preload" href="assets/css/plugins/swiper.min.css" as="style">
-    <link rel="stylesheet preload" href="assets/css/vendor/metismenu.css" as="style">
-    <link rel="stylesheet preload" href="assets/css/vendor/bootstrap.min.css" as="style">
+    <link rel="stylesheet preload" href="/css/plugins/fontawesome-6.css" as="style">
+    <link rel="stylesheet preload" href="/css/plugins/unicons.css" as="style">
+    <link rel="stylesheet preload" href="/css/vendor/bootstrap.min.css" as="style">
     <!-- custom css style -->
-    <link rel="stylesheet preload" href="assets/css/style.css" as="style">
+    <link rel="stylesheet preload" href="/css/style.css" as="style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body class="dark-version">
 
-    <!-- header area start -->
-    <header class="navbar navbar-expand-sm navbar-dark">
-        <nav class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo/2.png" alt="logo" width="50" height="50" class="rounded rounded-4">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    {{> menubar}}
 
-            <div class="collapse navbar-collapse" id="mynavbar">
-                <ul class="navbar-nav ms-auto me-4" style="gap: 1rem;">
-                    <li class="nav-item">
-                        <a class="nav-link" href="use-cases.html">Use Cases</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="features.html">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pricing.html">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tutorials.html">Tutorials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
-                    </li>
-                </ul>
-                <div class="button-area">
-                    <a href="https://app.ai4chat.co/register" class="btn btn-primary" style="border-radius: 0.6rem;">Get
-                        Started For Free</a>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- header area end -->
-
-
-
-
-
+    <div class="bg"></div>
     <!-- open up banner area start -->
     <section class="container d-grid justify-content-center mt-4">
         <div class="card mb-3 overflow-hidden rounded-card">
@@ -94,7 +55,7 @@
                             little bit longer.
                         </p>
 
-                        <ul>
+                        <ul class="tick-list">
                             <li class="mb-2">Import testimonials from over 30 platforms</li>
                             <li class="mb-2">Collect text & video testimonials on autopilot</li>
                             <li class="mb-2">Showcase proof on your site, emails, & socials</li>
@@ -161,7 +122,7 @@
                 <div class="card-body m-4 bg-white rounded">
                     <h4 class="card-title">You Without Social Proof</h4>
                     <p class="card-text">
-                    <ul>
+                    <ul class="cross-list">
                         <li>Struggling to build trust</li>
                         <li>Sales trickle in</li>
                         <li>More effort to prove yourself</li>
@@ -177,7 +138,7 @@
                     <h4 class="card-title">You With Social Proof</h4>
                     <p class="card-text">
 
-                    <ul>
+                    <ul class="tick-list">
                         <li>Customers trust you instantly</li>
                         <li>Products are selling like hotcakes</li>
                         <li>Your audience advocates for you</li>
@@ -197,13 +158,13 @@
 
 
     <section class="container mt-5">
-        <h1 class="text-center text-white fw-bold">Show social proof<br /> everywhere</h1>
-        <p class="text-center text-white">For everything from social media to emails website toasters, you can turn your
+        <h1 class="text-center fw-bold">Show social proof<br /> everywhere</h1>
+        <p class="text-center">For everything from social media to emails website toasters, you can turn your
             testimonials into conversion-optimizing assets displayed anywhere you want.</p>
         <div class="row mt-5">
             <div class="col-12 col-lg-6">
-                <div class="text-white">How it works</div>
-                <h1 class="text-white fw-bold">Start collecting & sharing testimonials <br />
+                <div>How it works</div>
+                <h1 class="fw-bold">Start collecting & sharing testimonials <br />
                     in a few easy steps</h1>
             </div>
             <div class="col-12 col-lg-6">
@@ -230,27 +191,27 @@
             </div>
         </div>
         <div class="card-group mt-4" style="gap: 0.6rem;">
-            <div class="card rounded overflow-hidden bg-transparent text-white">
-                <div class="card-img-top bg-light mb-3" style="height: 150px;"></div>
+            <div class="card border border-0 rounded overflow-hidden bg-transparent">
+                <div class="card-img-top bg-light mb-3" style="height: 150px; border-radius: 1rem;"></div>
                 <h4 class="card-title">Import</h4>
                 <p class="card-text">Grab all your existing testimonials from over 30 platforms or just drag in a CSV.
                     Once imported, Senja makes is simple to organize, tag, filter, and share them right away.</p>
             </div>
-            <div class="card rounded overflow-hidden bg-transparent text-white">
-                <div class="card-img-top bg-light mb-3" style="height: 150px;"></div>
+            <div class="card border border-0 rounded overflow-hidden bg-transparent">
+                <div class="card-img-top bg-light mb-3" style="height: 150px; border-radius: 1rem;"></div>
                 <h4 class="card-title">Collect</h4>
                 <p class="card-text">Create and share testimonial forms in no time. Senja handles video and text
                     collection automatically, even transcribing videos you collect natively for easy review.</p>
             </div>
-            <div class="card rounded overflow-hidden bg-transparent text-white">
-                <div class="card-img-top bg-light mb-3" style="height: 150px;"></div>
+            <div class="card border border-0 rounded overflow-hidden bg-transparent">
+                <div class="card-img-top bg-light mb-3" style="height: 150px; border-radius: 1rem;"></div>
                 <h4 class="card-title">Manage & Analyze</h4>
                 <p class="card-text">Tag and sort your testimonials by customer type, product, or sentiment. Use
                     Senja’s smart sentiment analysis to instantly spot what your customers love — and which products
                     or features they keep raving about.</p>
             </div>
-            <div class="card rounded overflow-hidden bg-transparent text-white">
-                <div class="card-img-top bg-light mb-3" style="height: 150px;"></div>
+            <div class="card border border-0 rounded overflow-hidden bg-transparent">
+                <div class="card-img-top bg-light mb-3" style="height: 150px; border-radius: 1rem;"></div>
                 <h4 class="card-title">Share</h4>
                 <p class="card-text">Show off your testimonials anywhere — on your site, social media, or emails —
                     with customizable widgets and Walls of Love.</p>
@@ -259,7 +220,7 @@
     </section>
 
     <section class="container mt-5">
-        <h1 class="fw-bold text-center text-white">Your all-in-one tool for gathering and showcasing powerful social
+        <h1 class="fw-bold text-center">Your all-in-one tool for gathering and showcasing powerful social
             proof</h1>
 
         <div class="row mt-5">
@@ -281,9 +242,9 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <div class="text-white">Instant Setup</div>
-                <h1 class="text-white fw-bold">Get started in minutes</h1>
-                <div class="row text-white mt-3 gy-3">
+                <div>Instant Setup</div>
+                <h1 class="fw-bold">Get started in minutes</h1>
+                <div class="row mt-3 gy-3">
                     <div class="col-12 col-md-6">
                         <div class="bg-light rounded-circle" style="width: 70px; height: 70px;"></div>
                         <div class="fw-bold fs-4">Customizable Forms</div>
@@ -307,9 +268,9 @@
         </div>
         <div class="row mt-5">
             <div class="col-12 col-lg-6">
-                <div class="text-white">Instant Setup</div>
-                <h1 class="text-white fw-bold">Get started in minutes</h1>
-                <div class="row text-white mt-3 gy-3">
+                <div>Instant Setup</div>
+                <h1 class="fw-bold">Get started in minutes</h1>
+                <div class="row mt-3 gy-3">
                     <div class="col-12 col-md-6">
                         <div class="bg-light rounded-circle" style="width: 70px; height: 70px;"></div>
                         <div class="fw-bold fs-4">Customizable Forms</div>
@@ -368,9 +329,9 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <div class="text-white">Instant Setup</div>
-                <h1 class="text-white fw-bold">Get started in minutes</h1>
-                <div class="row text-white mt-3 gy-3">
+                <div>Instant Setup</div>
+                <h1 class="fw-bold">Get started in minutes</h1>
+                <div class="row mt-3 gy-3">
                     <div class="col-12 col-md-6">
                         <div class="bg-light rounded-circle" style="width: 70px; height: 70px;"></div>
                         <div class="fw-bold fs-4">Customizable Forms</div>
@@ -395,9 +356,9 @@
 
         <div class="row mt-5">
             <div class="col-12 col-lg-6">
-                <div class="text-white">Instant Setup</div>
-                <h1 class="text-white fw-bold">Get started in minutes</h1>
-                <div class="row text-white mt-3 gy-3">
+                <div>Instant Setup</div>
+                <h1 class="fw-bold">Get started in minutes</h1>
+                <div class="row mt-3 gy-3">
                     <div class="col-12 col-md-6">
                         <div class="bg-light rounded-circle" style="width: 70px; height: 70px;"></div>
                         <div class="fw-bold fs-4">Customizable Forms</div>
@@ -443,11 +404,11 @@
 
 
     <section class="container mt-5">
-        <h1 class="text-center text-white fw-bold">“It’s by far the best testimonial <br />collection tool on the
+        <h1 class="text-center fw-bold">“It’s by far the best testimonial <br />collection tool on the
             market.”</h1>
         <div class="mt-4">
             <div class="mx-auto bg-light rounded-circle" style="width: 80px; height: 80px;"></div>
-            <div class="text-center text-white">
+            <div class="text-center">
                 <div class="fw-bold">Bruno Hiis</div>
                 <div>Founder, Featurebase</div>
             </div>
@@ -457,9 +418,9 @@
                 <div class="card h-100 bg-light" style="border-radius: 0.8rem; min-height: 500px;"></div>
             </div>
             <div class="col-12 col-lg-6">
-                <h4 class="text-white fw-bold">It’s never been easier to connect your favorite tools to simplify
+                <h4 class="fw-bold">It’s never been easier to connect your favorite tools to simplify
                     testimonial collection & showcase your success everywhere.</h4>
-                <div class="row text-white mt-3 gy-3">
+                <div class="row mt-3 gy-3">
                     <div class="col-12 col-md-6">
                         <div class="fw-bold fs-4">Import from 30+ Platforms</div>
                         <div>Quickly whip up branded forms to collect video and text testimonials with just a few
@@ -491,7 +452,7 @@
     <section class="container">
         <div class="row mt-5">
             <div class="col-12 col-lg-6">
-                <div class="card h-100 bg-transparent text-light" style="border-radius: 0.8rem;">
+                <div class="h-100 bg-transparent" style="border-radius: 0.8rem;">
                     <div class="d-grid">
                         <h4 class="card-title mt-2 fs-2">“Less than a month into implementing Senja and I've already
                             seen a tangible impact on revenue and conversion by sharing more social proof.”</h4>
@@ -507,7 +468,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 d-grid">
-                <h5 class="text-light mt-auto">
+                <h5 class="mt-auto">
                     Whether you're an author, podcaster, YouTuber,
 
                     or your own kind of niche creator — Senja is the
@@ -519,77 +480,243 @@
         </div>
     </section>
 
-
-
-
-    <!-- footer area start -->
-    <footer class="footer-area container-fluid bg-light pt-3">
-        <div class="row ps-2">
-            <ul class="col footer-menu">
-                <h5>Menu1</h5>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-            </ul>
-            <ul class="col footer-menu">
-                <h5>Menu2</h5>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-            </ul>
-            <ul class="col footer-menu">
-                <h5>Menu3</h5>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-            </ul>
-            <ul class="col footer-menu">
-                <h5>Menu4</h5>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="use-cases.html">Use Cases</a></li>
-            </ul>
+    <section class="container">
+        <div class="row mt-5">
+            <div class="col-12 col-lg-6">
+                <div class="bg-light rounded-circle" style="width: 100px; height: 100px;"></div>
+                <h1 class="fw-bold mt-2">Sell a course?</h1>
+                <div>
+                    For course sales, social proof is everything. Senja makes it simple to collect video and text
+                    testimonials from students. Share their feedback to show potential students what they’ll gain from
+                    your course, helping you turn more leads into dedicated learners.
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card h-100" style="border-radius: 0.8rem;">
+                    <div class="card-body p-4 d-grid">
+                        <h4 class="card-title mt-2 fs-2">"The setup was incredibly simple. It took less than 5 minutes
+                            to get started with collecting reviews. We were able to import existing reviews as well,
+                            which is such an important feature to have."</h4>
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="bg-light border border-dark rounded-circle" style="width: 80px; height: 80px;">
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="fw-bold m-0">Ed Leake</h4>
+                                <h4>edleake.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <p class="m-0 mt-2 text-center">Follow Us on</p>
-        <div class="d-flex justify-content-center" style="gap: 1rem;">
-            <a href="https://www.facebook.com/ai4chat" class="text-decoration-none" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://twitter.com/ai4chat" class="text-decoration-none" target="_blank">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://www.linkedin.com/company/ai4chat" class="text-decoration-none" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://www.instagram.com/ai4chat" class="text-decoration-none" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
+        <div class="row mt-5">
+            <div class="col-12 col-lg-6">
+                <div class="card h-100" style="border-radius: 0.8rem;">
+                    <div class="card-body p-4 d-grid">
+                        <h4 class="card-title mt-2 fs-2">"The setup was incredibly simple. It took less than 5 minutes
+                            to get started with collecting reviews. We were able to import existing reviews as well,
+                            which is such an important feature to have."</h4>
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="bg-light border border-dark rounded-circle" style="width: 80px; height: 80px;">
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="fw-bold m-0">Ed Leake</h4>
+                                <h4>edleake.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="bg-light rounded-circle" style="width: 100px; height: 100px;"></div>
+                <h1 class="fw-bold mt-2">Sell a course?</h1>
+                <div>
+                    For course sales, social proof is everything. Senja makes it simple to collect video and text
+                    testimonials from students. Share their feedback to show potential students what they’ll gain from
+                    your course, helping you turn more leads into dedicated learners.
+                </div>
+            </div>
         </div>
-        <div class="container-fluid py-4 text-center">
-            &copy; 2024 | All Rights Reserved.
+        <div class="row mt-5">
+            <div class="col-12 col-lg-6">
+                <div class="bg-light rounded-circle" style="width: 100px; height: 100px;"></div>
+                <h1 class="fw-bold mt-2">Sell a course?</h1>
+                <div>
+                    For course sales, social proof is everything. Senja makes it simple to collect video and text
+                    testimonials from students. Share their feedback to show potential students what they’ll gain from
+                    your course, helping you turn more leads into dedicated learners.
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card h-100" style="border-radius: 0.8rem;">
+                    <div class="card-body p-4 d-grid">
+                        <h4 class="card-title mt-2 fs-2">"The setup was incredibly simple. It took less than 5 minutes
+                            to get started with collecting reviews. We were able to import existing reviews as well,
+                            which is such an important feature to have."</h4>
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="bg-light border border-dark rounded-circle" style="width: 80px; height: 80px;">
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="fw-bold m-0">Ed Leake</h4>
+                                <h4>edleake.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+        <div class="row mt-5">
+            <div class="col-12 col-lg-6">
+                <div class="card h-100" style="border-radius: 0.8rem;">
+                    <div class="card-body p-4 d-grid">
+                        <h4 class="card-title mt-2 fs-2">"The setup was incredibly simple. It took less than 5 minutes
+                            to get started with collecting reviews. We were able to import existing reviews as well,
+                            which is such an important feature to have."</h4>
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="bg-light border border-dark rounded-circle" style="width: 80px; height: 80px;">
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="fw-bold m-0">Ed Leake</h4>
+                                <h4>edleake.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="bg-light rounded-circle" style="width: 100px; height: 100px;"></div>
+                <h1 class="fw-bold mt-2">Sell a course?</h1>
+                <div>
+                    For course sales, social proof is everything. Senja makes it simple to collect video and text
+                    testimonials from students. Share their feedback to show potential students what they’ll gain from
+                    your course, helping you turn more leads into dedicated learners.
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-lg-6">
+                <div class="bg-light rounded-circle" style="width: 100px; height: 100px;"></div>
+                <h1 class="fw-bold mt-2">Sell a course?</h1>
+                <div>
+                    For course sales, social proof is everything. Senja makes it simple to collect video and text
+                    testimonials from students. Share their feedback to show potential students what they’ll gain from
+                    your course, helping you turn more leads into dedicated learners.
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card h-100" style="border-radius: 0.8rem;">
+                    <div class="card-body p-4 d-grid">
+                        <h4 class="card-title mt-2 fs-2">"The setup was incredibly simple. It took less than 5 minutes
+                            to get started with collecting reviews. We were able to import existing reviews as well,
+                            which is such an important feature to have."</h4>
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="bg-light border border-dark rounded-circle" style="width: 80px; height: 80px;">
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="fw-bold m-0">Ed Leake</h4>
+                                <h4>edleake.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-lg-6">
+                <div class="card h-100" style="border-radius: 0.8rem;">
+                    <div class="card-body p-4 d-grid">
+                        <h4 class="card-title mt-2 fs-2">"The setup was incredibly simple. It took less than 5 minutes
+                            to get started with collecting reviews. We were able to import existing reviews as well,
+                            which is such an important feature to have."</h4>
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="bg-light border border-dark rounded-circle" style="width: 80px; height: 80px;">
+                            </div>
+                            <div class="ms-3">
+                                <h4 class="fw-bold m-0">Ed Leake</h4>
+                                <h4>edleake.com</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="bg-light rounded-circle" style="width: 100px; height: 100px;"></div>
+                <h1 class="fw-bold mt-2">Sell a course?</h1>
+                <div>
+                    For course sales, social proof is everything. Senja makes it simple to collect video and text
+                    testimonials from students. Share their feedback to show potential students what they’ll gain from
+                    your course, helping you turn more leads into dedicated learners.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h1 class="text-center">We know testimonials drive trust
+            — here’s why people trust us</h1>
+        <div class="row text-nowrap justify-content-center mt-3" style="gap: 1rem;">
+            <div class="card col-auto p-2 px-4">
+                <p class="card-text">💖 All testimonials</p>
+            </div>
+            <div class="card col-auto p-2 px-4">
+                <p class="card-text">📹️ Video testimonials</p>
+            </div>
+            <div class="card col-auto p-2 px-4">
+                <p class="card-text">📚️ Love from Creators</p>
+            </div>
+            <div class="card col-auto p-2 px-4">
+                <p class="card-text">🖥️ Love from SaaS</p>
+            </div>
+            <div class="card col-auto p-2 px-4">
+                <p class="card-text">👔 Love from Agencies</p>
+            </div>
+            <div class="card col-auto p-2 px-4">
+                <p class="card-text">♻️ People who switched</p>
+            </div>
+        </div>
+    </section>
 
 
-    <script src="assets/js/vendor/jquery.min.js" defer></script>
-    <script src="assets/js/vendor/metismenu.js" defer></script>
-    <script src="assets/js/plugins/bootstrap.min.js" defer></script>
-    <script src="assets/js/plugins/swiper.js" defer></script>
-    <script src="assets/js/plugins/contact.form.js" defer></script>
-    <script src="assets/js/main.js" defer></script>
+    <section class="container-fluid d-grid justify-content-center mt-4 bg-primary py-4 pt-5" style="margin-bottom: 0;">
+        <div class="card mb-3 overflow-hidden rounded-card container">
+            <div class="row g-0">
+                <div class="col-12 col-lg-6">
+                    <div class="card-body h-100 d-grid justify-content-start px-5 py-5">
+                        <h5 class="card-title">“This app is changing
+                            the game on getting social proof and making it so effortless.”</h5>
+                        <p class="card-text">
+                            This is a wider card with supporting text below as a
+                            natural lead-in to additional content. This content is a
+                            little bit longer.
+                        </p>
+
+                        <ul class="tick-list">
+                            <li class="mb-2">Import testimonials from over 30 platforms</li>
+                            <li class="mb-2">Collect text & video testimonials on autopilot</li>
+                            <li class="mb-2">Showcase proof on your site, emails, & socials</li>
+                        </ul>
+
+                        <div class="btn btn-primary p-3 px-4 fw-bold fs-4 border border-3 mt-auto me-auto"
+                            style="border-radius: 1rem;">
+                            Start For Free Today
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img srcset="https://framerusercontent.com/images/DT6fh0h7FPXrxtb6pvgaMUElxk.png?scale-down-to=512 512w,
+                        https://framerusercontent.com/images/DT6fh0h7FPXrxtb6pvgaMUElxk.png?scale-down-to=1024 1024w,
+                        https://framerusercontent.com/images/DT6fh0h7FPXrxtb6pvgaMUElxk.png?scale-down-to=2048 2048w,
+                        https://framerusercontent.com/images/DT6fh0h7FPXrxtb6pvgaMUElxk.png 2184w"
+                        class="img-fluid rounded-start" alt="Card title" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{> footer}}
+
+    <script src="/js/plugins/bootstrap.min.js" defer></script>
+    <script src="/js/main.js" defer></script>
 </body>
 
 

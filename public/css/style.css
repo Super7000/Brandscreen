@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #4335b2;
+}
+
+.btn-primary:hover {
+    background-color: #4335b2;
+}
+
+.bg-primary {
+    background-color: #4335b2 !important;
+}
+
+.rounded-card {
+    border-radius: 3rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+section {
+    margin: 100px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #19143f;
+    width: 100%;
+    min-height: 250vh;
+    border-bottom-left-radius: 75vh;
+    border-bottom-right-radius: 75vh;
+    z-index: -20;
+}
+
+.tick-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tick-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.tick-list li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: green;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cross-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cross-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.cross-list li::before {
+    content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
