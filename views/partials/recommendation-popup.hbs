@@ -1,0 +1,41 @@
+<div class="card mb-3 me-4 recommendation-popup"
+    style="max-width: 450px; position: fixed; bottom: 1.5rem; left: 1.5rem; border-radius: 1rem; cursor: pointer; z-index: 20;">
+    <div class="row g-0">
+        <div class="col-4">
+            <img src="/images/card-thumbnails/4.webp" class="img-fluid h-100" style="border-radius: 1rem 0 0 1rem;"
+                alt="Card title" />
+        </div>
+        <div class="col-8">
+            <div class="card-body">
+                <button type="button"
+                    class="recommendation-popup-close-btn btn-close position-absolute bg-light p-0 m-0 border border-2 border-dark"
+                    style="right: 0; top: 0; border-radius: 50%; width: 30px; height: 30px; transform: translate(40%,-40%);"
+                    aria-label="Close"></button>
+                <h5 class="card-title">Card title</h5>
+                <div class="card-text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in to additional content.
+                </div>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .recommendation-popup-close-btn {
+        display: none;
+    }
+
+    .recommendation-popup:hover .recommendation-popup-close-btn {
+        display: block;
+    }
+</style>
+
+<script>
+    document.querySelector('.recommendation-popup-close-btn').addEventListener('click', function () {
+        document.querySelector('.recommendation-popup').style.display = 'none';
+    });
+</script>
