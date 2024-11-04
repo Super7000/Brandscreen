@@ -57,10 +57,14 @@ a {
     content: "\f00c";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: green;
+    color: rgb(105, 212, 105);
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.tick-list-primary li::before {
+    color: #6701EF;
 }
 
 .cross-list {
@@ -82,4 +86,18 @@ a {
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.gradient-bg-primary {
+    background: linear-gradient(105.47834442845968deg, #9954f2 0%, rgba(103, 1, 239, 1) 100%);
+    color: white;
+}
+
+.text-primary {
+    color: #6701EF !important;
+}
+
+img {
+    object-fit: cover;
+    object-position: center center;
 }
