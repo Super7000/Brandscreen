@@ -38,7 +38,7 @@ function HowItWorks() {
                             <i className="fas fa-star" style={{ color: "rgb(255, 196, 0)" }} />
                             <i className="fas fa-star" style={{ color: "rgb(255, 196, 0)" }} />
                             <h4 className="card-title mt-2">
-                                I just jumped in and put Senja to work
+                                I just jumped in and put Brandscreen to work
                                 <br />
                                 <span className="text-white-50">
                                     — that{"'"}s how clean and clear the UX is.

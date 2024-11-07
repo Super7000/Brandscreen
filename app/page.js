@@ -45,7 +45,7 @@ export default function Home() {
             <Achivements />
             <Gallery />
             <Banner
-                className={"container-fluid bg-primary py-5 pt-5 mb-0 px-5"}
+                className={"container-fluid bg-primary py-5 pt-5 mb-0 px-md-5"}
                 heading="“This app is changing the game on getting social proof and making it so effortless.”"
                 list={["Import testimonials from over 30 platforms", "Collect text & video testimonials on autopilot", "Showcase proof on your site, emails, & socials"]}
                 subHeading="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."

@@ -15,7 +15,7 @@ const testimonials = [
         top: 100,
         name: "Ed Leake",
         website: "edleake.com",
-        text: "HUGE fan of the Senja product and team. Less than a month into implementing Senja and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
+        text: "HUGE fan of the Brandscreen product and team. Less than a month into implementing Brandscreen and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
         date: "Jun 6, 2023",
         stars: 5
     },
@@ -24,7 +24,7 @@ const testimonials = [
         profilePic: "/images/profile-pics/1.avif",
         name: "Ed Leake",
         website: "edleake.com",
-        text: "I was so surprised how easily Senja could do what I hoped it to be able to that I subscribed within the first hour and I'm gonna port it to my other company during the day 😅",
+        text: "I was so surprised how easily Brandscreen could do what I hoped it to be able to that I subscribed within the first hour and I'm gonna port it to my other company during the day 😅",
         date: "Jun 6, 2023",
         stars: 4
     },
@@ -33,7 +33,7 @@ const testimonials = [
         profilePic: "/images/profile-pics/1.avif",
         name: "Ed Leake",
         website: "edleake.com",
-        text: "We looked at several options to collect reviews from our customers, before settling on Senja. What drew us to Senja was the great user interface and how easy the product was to use. The setup was incredibly simple. It took less than 5 minutes to get started with collecting reviews. We were able to import existing reviews as well, which is such an important feature to have. Senja seems like a well thought-out product. I'm really happy that we've found Senja and will absolutely be recommending the product to our audience. If you're on the fence, sign up for a free trial and see how it works for you. Getting reviews from your audience is a great dopamine hit. Don't miss out on that!",
+        text: "We looked at several options to collect reviews from our customers, before settling on Brandscreen. What drew us to Brandscreen was the great user interface and how easy the product was to use. The setup was incredibly simple. It took less than 5 minutes to get started with collecting reviews. We were able to import existing reviews as well, which is such an important feature to have. Brandscreen seems like a well thought-out product. I'm really happy that we've found Brandscreen and will absolutely be recommending the product to our audience. If you're on the fence, sign up for a free trial and see how it works for you. Getting reviews from your audience is a great dopamine hit. Don't miss out on that!",
         date: "Jun 6, 2023",
         stars: 5
     },
@@ -42,7 +42,7 @@ const testimonials = [
         profilePic: "/images/profile-pics/1.avif",
         name: "Ed Leake",
         website: "edleake.com",
-        text: "HUGE fan of the Senja product and team. Less than a month into implementing Senja and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
+        text: "HUGE fan of the Brandscreen product and team. Less than a month into implementing Brandscreen and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
         date: "Jun 6, 2023",
         stars: 5
     },
@@ -53,7 +53,7 @@ const testimonials = [
         top: 100,
         name: "Ed Leake",
         website: "edleake.com",
-        text: "HUGE fan of the Senja product and team. Less than a month into implementing Senja and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
+        text: "HUGE fan of the Brandscreen product and team. Less than a month into implementing Brandscreen and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
         date: "Jun 6, 2023",
         stars: 5
     },
@@ -64,7 +64,7 @@ const testimonials = [
         top: 200,
         name: "Ed Leake",
         website: "edleake.com",
-        // text: "HUGE fan of the Senja product and team. Less than a month into implementing Senja and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
+        // text: "HUGE fan of the Brandscreen product and team. Less than a month into implementing Brandscreen and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
         // date: "Jun 6, 2023",
         stars: 4
     },
@@ -73,7 +73,7 @@ const testimonials = [
         profilePic: "/images/profile-pics/1.avif",
         name: "Ed Leake",
         website: "edleake.com",
-        text: "HUGE fan of the Senja product and team. Less than a month into implementing Senja and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
+        text: "HUGE fan of the Brandscreen product and team. Less than a month into implementing Brandscreen and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
         date: "Jun 6, 2023",
         stars: 5
     },
@@ -82,7 +82,7 @@ const testimonials = [
         profilePic: "/images/profile-pics/1.avif",
         name: "Ed Leake",
         website: "edleake.com",
-        text: "Absolutely Senja's biggest fan. This app is changing the game on getting social proof and making it so effortless on my side. An easy investment to make that's already made a huge difference in being able to show the impact of my programs.",
+        text: "Absolutely Brandscreen's biggest fan. This app is changing the game on getting social proof and making it so effortless on my side. An easy investment to make that's already made a huge difference in being able to show the impact of my programs.",
         date: "Jun 6, 2023",
         stars: 5
     },
@@ -91,7 +91,7 @@ const testimonials = [
         profilePic: "/images/profile-pics/1.avif",
         name: "Ed Leake",
         website: "edleake.com",
-        text: "I was so surprised how easily Senja could do what I hoped it to be able to that I subscribed within the first hour and I'm gonna port it to my other company during the day 😅",
+        text: "I was so surprised how easily Brandscreen could do what I hoped it to be able to that I subscribed within the first hour and I'm gonna port it to my other company during the day 😅",
         date: "Jun 6, 2023",
         stars: 4
     },
@@ -102,7 +102,7 @@ const testimonials = [
         top: 200,
         name: "Ed Leake",
         website: "edleake.com",
-        // text: "HUGE fan of the Senja product and team. Less than a month into implementing Senja and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
+        // text: "HUGE fan of the Brandscreen product and team. Less than a month into implementing Brandscreen and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
         // date: "Jun 6, 2023",
         stars: 4
     },
@@ -113,7 +113,7 @@ const testimonials = [
         top: 120,
         name: "Ed Leake",
         website: "edleake.com",
-        // text: "HUGE fan of the Senja product and team. Less than a month into implementing Senja and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
+        // text: "HUGE fan of the Brandscreen product and team. Less than a month into implementing Brandscreen and I've already seen a tangible impact on revenue and conversion by sharing more social proof.",
         // date: "Jun 6, 2023",
         stars: 4
     },
@@ -122,7 +122,7 @@ const testimonials = [
         profilePic: "/images/profile-pics/1.avif",
         name: "Ed Leake",
         website: "edleake.com",
-        text: "I was so surprised how easily Senja could do what I hoped it to be able to that I subscribed within the first hour and I'm gonna port it to my other company during the day 😅",
+        text: "I was so surprised how easily Brandscreen could do what I hoped it to be able to that I subscribed within the first hour and I'm gonna port it to my other company during the day 😅",
         date: "Jun 6, 2023",
         stars: 0
     },
@@ -131,7 +131,7 @@ const testimonials = [
         profilePic: "/images/profile-pics/1.avif",
         name: "Ed Leake",
         website: "edleake.com",
-        text: "Absolutely Senja's biggest fan. This app is changing the game on getting social proof and making it so effortless on my side. An easy investment to make that's already made a huge difference in being able to show the impact of my programs.",
+        text: "Absolutely Brandscreen's biggest fan. This app is changing the game on getting social proof and making it so effortless on my side. An easy investment to make that's already made a huge difference in being able to show the impact of my programs.",
         date: "Jun 6, 2023",
         stars: 5
     },
@@ -140,7 +140,7 @@ const testimonials = [
         profilePic: "/images/profile-pics/1.avif",
         name: "Ed Leake",
         website: "edleake.com",
-        text: "I was so surprised how easily Senja could do what I hoped it to be able to that I subscribed within the first hour and I'm gonna port it to my other company during the day 😅",
+        text: "I was so surprised how easily Brandscreen could do what I hoped it to be able to that I subscribed within the first hour and I'm gonna port it to my other company during the day 😅",
         date: "Jun 6, 2023",
         stars: 4
     }

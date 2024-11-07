@@ -48,7 +48,7 @@ function Footer() {
                     <li>Collect testimonials in LearnDash</li>
                 </ul>
                 <ul className="col-12 col-md-6 col-lg-3 footer-menu">
-                    <h5>Senja for</h5>
+                    <h5>Brandscreen for</h5>
                     <li>Sales teams</li>
                     <li>Employee testimonials</li>
                     <li>SaaS</li>
@@ -66,7 +66,7 @@ function Footer() {
                     <li>Testimonial questions</li>
                     <li>Course testimonials</li>
                     <li>Agency reseller</li>
-                    <h5>Why Senja?</h5>
+                    <h5>Why Brandscreen?</h5>
                     <li>About us</li>
                     <li>Case Studies</li>
                     <li>Compare alternatives</li>
@@ -93,14 +93,14 @@ function Footer() {
                     <li>Judge.me alternative</li>
                     <li>FOMO alternative</li>
                     <h5>Support and Docs</h5>
-                    <li>Why Senja?</li>
+                    <li>Why Brandscreen?</li>
                     <li>Contact Us</li>
                     <li>Open Office Hours</li>
                     <li>Help Center</li>
-                    <li>Senja for Developers</li>
+                    <li>Brandscreen for Developers</li>
                     <li>Terms of Service</li>
                     <li>Privacy Policy</li>
-                    <li>Senja discount code policy</li>
+                    <li>Brandscreen discount code policy</li>
                 </ul>
             </div>
             <p className="m-0 mt-2 text-center">Follow Us on</p>

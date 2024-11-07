@@ -11,7 +11,7 @@ function Achivements() {
                         <div className="h-100 bg-transparent" style={{ borderRadius: "0.8rem" }}>
                             <div className="d-grid">
                                 <h4 className="card-title mt-2 fs-2 fw-bold">
-                                    “Less than a month into implementing Senja and{" "}
+                                    “Less than a month into implementing Brandscreen and{" "}
                                     <span className="text-primary">
                                         I{"'"}ve already seen a tangible impact on revenue and conversion
                                     </span>{" "}
@@ -36,7 +36,7 @@ function Achivements() {
                     <div className="col-12 col-lg-6 d-grid">
                         <h5 className="mt-4 mt-lg-auto">
                             Whether you{"'"}re an author, podcaster, YouTuber, or your own kind of niche
-                            creator — Senja is the go-to tool for collecting, managing, and showing
+                            creator — Brandscreen is the go-to tool for collecting, managing, and showing
                             off your social proof to help you build trust and grow your audience.
                         </h5>
                     </div>

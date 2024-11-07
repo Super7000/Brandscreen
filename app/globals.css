@@ -11,7 +11,8 @@
 }
 
 .bg-primary {
-    background-color: #4335b2 !important;
+    --bs-primary-rgb: 67, 53, 178;
+    /* background-color: #4335b2 !important; */
 }
 
 .rounded-card {
@@ -94,7 +95,8 @@ a {
 }
 
 .text-primary {
-    color: #6701EF !important;
+    --bs-primary-rgb: 103, 1, 239;
+    /* color: #6701EF !important; */
 }
 
 img {

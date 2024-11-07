@@ -27,7 +27,7 @@ function Menubar({ menus = [
                         width={165}
                         height={35}
                         className="d-inline d-lg-none d-xl-inline"
-                        style={{ filter: "drop-shadow(0px 0 3px rgba(3, 7, 12, 0.5))" }}
+                        style={{ filter: "drop-shadow(0px 0 3px rgba(3, 7, 12, 0.7))" }}
                     />
                 </Link>
                 <button
