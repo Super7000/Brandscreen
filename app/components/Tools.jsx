@@ -1,5 +1,6 @@
 import React from 'react'
 import toolsData from '../data/tools'
+import Image from 'next/image'
 
 function Tools() {
     return (
@@ -10,6 +11,7 @@ function Tools() {
             </h1>
             {toolsData.map((data, index) => (
                 <Tool
+                    key={index}
                     reverse={(index % 2) === 0 ? false : true}
                     quote={data.quote}
                     user={data.user}
@@ -44,11 +46,12 @@ function ToolLeftSide({ quote, profilePic, name, website, reverse = false }) {
                         {quote}
                     </h4>
                     <div className="d-flex align-items-center mt-auto">
-                        <img
+                        <Image
                             className="bg-light border border-dark rounded-circle"
                             width={80}
                             height={80}
                             src={profilePic}
+                            alt='profile picture'
                         />
                         <div className="ms-3 fs-4">
                             <div className="fw-bold lh-1">{name}</div>
@@ -69,11 +72,12 @@ function ToolRightSide({ title, subtitle, features, reverse = false }) {
             <div className="row mt-3 gy-3">
                 {features.map((feature, index) => (
                     <div key={index} className="col-12 col-md-6">
-                        <img
+                        <Image
                             width={70}
                             height={70}
                             src={feature.icon}
                             className="bg-light rounded-circle"
+                            alt='feature icon'
                         />
                         <div className="fw-bold fs-4">{feature.title}</div>
                         <div>{feature.description}</div>

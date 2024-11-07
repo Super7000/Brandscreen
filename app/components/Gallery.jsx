@@ -1,5 +1,6 @@
 import React from 'react'
 import testimonials, { tags } from '../data/gallery'
+import Image from 'next/image';
 
 function Gallery() {
     return (
@@ -37,11 +38,12 @@ function TestimonialCard({ testimonial }) {
         <div className="card text-start">
             <div className="card-body">
                 <div className="d-flex align-items-center me-auto">
-                    <img
+                    <Image
                         className="bg-light border border-dark rounded-circle"
                         width={40}
                         height={40}
                         src={testimonial.profilePic}
+                        alt="profile picture"
                     />
                     <div className="ms-2 lh-1">
                         <div className="fw-bold m-0">{testimonial.name}</div>
@@ -69,6 +71,7 @@ function ImageCard({ testimonial }) {
                     height={testimonial.height}
                     className="w-100"
                     style={{ zIndex: -1 }}
+                    alt='testimonial thumbnail'
                 />
                 <div
                     style={{

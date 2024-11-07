@@ -1,5 +1,6 @@
 import React from 'react'
 import howItWorksData from '../data/howItWorks'
+import Image from 'next/image'
 
 function HowItWorks() {
     return (
@@ -40,15 +41,16 @@ function HowItWorks() {
                                 I just jumped in and put Senja to work
                                 <br />
                                 <span className="text-white-50">
-                                    — that's how clean and clear the UX is.
+                                    — that{"'"}s how clean and clear the UX is.
                                 </span>
                             </h4>
                             <div className="d-flex align-items-center mt-2">
-                                <img
+                                <Image
                                     className="bg-light border border-dark rounded-circle"
                                     width={60}
                                     height={60}
                                     src="/images/profile-pics/1.avif"
+                                    alt='profile picture'
                                 />
                                 <div className="ms-3">
                                     <div className="fw-bold">Ed Leake</div>
@@ -69,11 +71,13 @@ function HowItWorks() {
 function Card({ imgSrc, title, text }) {
     return (
         <div className="card col-12 col-md-6 col-lg-3 border border-0 rounded overflow-hidden bg-transparent">
-            <img
+            <Image
                 className="card-img-top bg-light mb-3 border border-4"
+                width={285}
                 height={150}
                 style={{ borderRadius: "1rem" }}
                 src={"/images/card-thumbnails/" + imgSrc}
+                alt={"card thumbnail"}
             />
             <h4 className="card-title fw-bold">{title}</h4>
             <p className="card-text">

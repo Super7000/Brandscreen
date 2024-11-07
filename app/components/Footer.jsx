@@ -26,7 +26,7 @@ function Footer() {
                 <ul className="col-12 col-md-6 col-lg-3 footer-menu">
                     <h5>Development</h5>
                     <li>Request a feature</li>
-                    <li>What's new ✨</li>
+                    <li>What{"'"}s new ✨</li>
                     <h5>Tools</h5>
                     <li>Mine My Reviews</li>
                     <li>Testimonial Templates</li>

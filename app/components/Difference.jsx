@@ -8,7 +8,7 @@ function Difference({ leftTitle, rightTitle, leftList = [], rightList = [], left
                 collection tool on the market.”
             </h1>
             <div className="my-4 mb-5 d-grid justify-content-center">
-                <img className="mx-auto rounded-circle" src="/images/profile-pics/1.avif" />
+                <img className="mx-auto rounded-circle" src="/images/profile-pics/1.avif" alt='profile picture' />
                 <div className="text-center text-white">
                     <div className="fw-bold">Bruno Hiis</div>
                     <div>Founder, Featurebase</div>
@@ -27,12 +27,13 @@ function Difference({ leftTitle, rightTitle, leftList = [], rightList = [], left
                             objectPosition: "center center"
                         }}
                         src={leftImgSrc}
+                        alt='card thumbnail'
                     />
                     <div className="card-body m-4 bg-white rounded">
                         <h3 className="card-title fw-bold">{leftTitle}</h3>
                         <p className="card-text"></p>
                         <ul className="cross-list px-3">
-                            {leftList.map(elem => <li>{elem}</li>)}
+                            {leftList.map(elem => <li key={elem}>{elem}</li>)}
                         </ul>
                         <p />
                     </div>
@@ -49,6 +50,7 @@ function Difference({ leftTitle, rightTitle, leftList = [], rightList = [], left
                             objectPosition: "center center"
                         }}
                         src={rightImgSrc}
+                        alt='card thumbnail'
                     />
                     <div className="card-body m-4 bg-white rounded">
                         <h3 className="card-title fw-bold text-primary">
@@ -56,7 +58,7 @@ function Difference({ leftTitle, rightTitle, leftList = [], rightList = [], left
                         </h3>
                         <p className="card-text"></p>
                         <ul className="tick-list tick-list-primary px-3">
-                            {rightList.map(elem => <li>{elem}</li>)}
+                            {rightList.map(elem => <li key={elem}>{elem}</li>)}
                         </ul>
                         <p />
                     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import achivementData from '../data/achivement'
+import Image from 'next/image'
 
 function Achivements() {
     return (
@@ -12,16 +13,17 @@ function Achivements() {
                                 <h4 className="card-title mt-2 fs-2 fw-bold">
                                     “Less than a month into implementing Senja and{" "}
                                     <span className="text-primary">
-                                        I've already seen a tangible impact on revenue and conversion
+                                        I{"'"}ve already seen a tangible impact on revenue and conversion
                                     </span>{" "}
                                     by sharing more social proof.”
                                 </h4>
                                 <div className="d-flex align-items-center mt-3 me-auto">
-                                    <img
+                                    <Image
                                         className="bg-light border border-dark rounded-circle mx-auto"
                                         width={80}
                                         height={80}
                                         src="/images/profile-pics/1.avif"
+                                        alt='profile picture'
                                     />
                                     <div className="ms-3">
                                         <h5 className="fw-bold m-0">Ed Leake</h5>
@@ -33,7 +35,7 @@ function Achivements() {
                     </div>
                     <div className="col-12 col-lg-6 d-grid">
                         <h5 className="mt-4 mt-lg-auto">
-                            Whether you're an author, podcaster, YouTuber, or your own kind of niche
+                            Whether you{"'"}re an author, podcaster, YouTuber, or your own kind of niche
                             creator — Senja is the go-to tool for collecting, managing, and showing
                             off your social proof to help you build trust and grow your audience.
                         </h5>
@@ -43,6 +45,7 @@ function Achivements() {
             <section className="container">
                 {achivementData.map((data, index) =>
                     <Achivement
+                        key={index}
                         iconSrc={"/images/icons/" + data.iconSrc}
                         title={data.title}
                         description={data.description}
@@ -67,11 +70,12 @@ function Achivement({ reverse = false, quote, user = { name: "user", title: "tit
                     <div className="card-body p-4 d-grid">
                         <h4 className="card-title mt-2 fs-2">“{quote}”</h4>
                         <div className="d-flex align-items-center mt-3 me-auto">
-                            <img
+                            <Image
                                 className="bg-light border border-dark rounded-circle mx-auto"
                                 width={80}
                                 height={80}
                                 src={"/images/profile-pics/" + user.imgSrc}
+                                alt='profile picture'
                             />
                             <div className="ms-3">
                                 <h5 className="fw-bold m-0">{user.name}</h5>
@@ -89,7 +93,7 @@ function Achivement({ reverse = false, quote, user = { name: "user", title: "tit
 function AchivementDetails({ iconSrc, title, description, reverse = false }) {
     return (
         <div className={"col-12 col-lg-6 " + (reverse ? "" : "order-lg-2 order-1")}>
-            <img width={150} height={150} src={iconSrc} />
+            <Image width={150} height={150} src={iconSrc} alt='achivement icon' />
             <h1 className="fw-bold mt-2">{title}</h1>
             <div>{description}</div>
         </div>
